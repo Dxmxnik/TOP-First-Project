@@ -1,0 +1,20 @@
+.header {
+    color: #F9F8FA;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 160px;
+}
+
+.headerlinks {
+    font-weight: normal;
+    font-size: 16px;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+body {
+    background-color: #1F2937;
+    font-family: "roboto";
+}
