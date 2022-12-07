@@ -102,4 +102,44 @@ p {
 
 .quoteSection {
     background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.quoteSection p {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    width: 45%;
+    margin-bottom: 15px;
+    opacity: 90%;
+}
+
+.quoteSection span {
+    float: right;
+    align-self: flex-end;
+    margin-right: 400px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.callToAction {
+    background-color: white;
+    height: 250px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actionBackground {
+    background-color: #3882f6;
+    width: 1300px;
+    height: 100px;
+    border-radius: 12px;
 }
